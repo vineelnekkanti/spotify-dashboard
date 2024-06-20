@@ -18,5 +18,6 @@ format:
     #css: styles.css #this is not needed
     toc: true
 
-
+output-dir: docs
+url: "https://vineelnekkanti.github.io/spotify-dashboard/"
 
