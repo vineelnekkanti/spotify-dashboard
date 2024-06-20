@@ -1,10 +1,10 @@
 on:
   workflow_dispatch:
   push:
-    branches: main #every single time we push our changes to this branch in repo, it's going to update the dashboard and website for us with no need to render anything locally.
-  schedule: 
-     -cron: '0 13 * * *' #this helps to push latest changes everysingle morning at 9 A.M if any besides above option.
-     
+    branches: main
+  schedule:
+    - cron: '0 13 * * *'
+
 name: Quarto Publish
 
 jobs:
