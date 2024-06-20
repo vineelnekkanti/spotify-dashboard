@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Spotify Dashboard"
+  sidebar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Dashboard
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: [cosmo, custom.scss] #For Quarto, custom css file is comfortable. The default is cosmo, but any theme we give in custom will take precedence
+    #css: styles.css #this is not needed
+    toc: true
+
+
+

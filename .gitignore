@@ -1,0 +1,15 @@
+# RStudio project settings
+.Rproj.user/
+
+# History files
+.Rhistory
+
+# Session data
+.RData
+
+# User-specific data
+.Ruserdata
+
+
+/.quarto/
+/_site/
