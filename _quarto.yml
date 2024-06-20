@@ -20,5 +20,5 @@ website:
 format:
   html:
     theme: [cosmo, custom.scss]
-    highlight-style: atom-one-dark
+    #highlight-style: atom-one-dark
     toc: true
