@@ -3,21 +3,21 @@ project:
 
 website:
   title: "Spotify Dashboard"
-  #favicon: images/logo.png
+  favicon: images/logo.png
   #page-navigation: true
   site-url: https://vineelnekkanti.github.io/spotify-dashboard/
   repo-url: https://github.com/vineelnekkanti/spotify-dashboard
   #repo-actions: [edit, source, issue]
   sidebar:
-    #title: "Posit 2024 Table Contest"
+    title: "Spotify Dashboard"
     #style: "docked"
     search: true
-    logo: images/logo.png
+    #logo: images/logo.png
     contents: 
       - href: index.qmd
         text: Home
       - href: dashboard.qmd
-        text: My entry
+        text: Dashboard
       - href: about.qmd
         text: About Me
 
@@ -25,6 +25,6 @@ format:
   html:
     theme: [cosmo, custom.scss] #For Quarto, custom css file is comfortable. The default is cosmo, but any theme we give in custom will take precedence
     #css: styles.css #this is not needed
-    #highlight-style: atom-one-dark
+    highlight-style: atom-one-dark
     toc: true
 
