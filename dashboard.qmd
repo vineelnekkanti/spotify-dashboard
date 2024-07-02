@@ -26,6 +26,10 @@ head(starwars)
 ### Row {height="10%"}
 
 Placeholder for column 2, Row 1
+```{r}
+paste0("My username is: ",Sys.getenv("MY_USERNAME"))
+paste0("My password is: ",Sys.getenv("MY_PASSWORD"))
+```
 
 ### Row {height="70%"}
 
