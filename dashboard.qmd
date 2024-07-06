@@ -24,8 +24,8 @@ library(gt)
 
 # Define client id and client secret to request Spotify access token
 
-client_id <- Sys.getenv("MY_CLIENT_ID")
-client_secret <- Sys.getenv("MY_CLIENT_SECRET")
+client_id <- Sys.getenv("SPOTIFY_CLIENT_ID")
+client_secret <- Sys.getenv("SPOTIFY_CLIENT_SECRET")
 
 # Generate Spotify access token
 
