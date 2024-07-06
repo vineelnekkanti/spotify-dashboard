@@ -5,10 +5,6 @@ website:
   title: "Spotify Dashboard"
   sidebar:
     contents:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
       - href: dashboard.qmd
         text: Dashboard
 
@@ -16,6 +12,3 @@ format:
   html:
     theme: [cosmo, custom.scss]
     toc: true
-
-
-
